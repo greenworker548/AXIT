@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <title>AXIT</title>
 </head>
 <body>
@@ -258,14 +259,74 @@
         </div>
     </section>
     <section class="customers" id="customers">
-            <div class="customers__boxtitle">
-                <div class="customers__title">
-                    <h2>what our customers are saying</h2>
-                </div>
-                <div class="customers__subtitle">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
+        <div class="customers__boxtitle">
+            <div class="customers__title">
+                <h2>what our customers are saying</h2>
             </div>
+            <div class="customers__subtitle">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                    </div>
+                    <div class="sub_text">
+                        <div class="image">
+                            <img src="assets/img/Ellipse_1.svg" alt="img" class="portrait">
+                        </div>
+                        <div class="explanation">
+                            <div class="name">
+                                <p>Davis Rhiel Madsen</p>
+                            </div>
+                            <div class="position">
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                    </div>
+                    <div class="sub_text">
+                        <div class="image">
+                            <img src="assets/img/Ellipse_2.svg" alt="img" class="portrait">
+                        </div>
+                        <div class="explanation">
+                            <div class="name">
+                                <p>Jaydon Rosser</p>
+                            </div>
+                            <div class="position">
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                    </div>
+                    <div class="sub_text">
+                        <div class="image">
+                            <img src="assets/img/Ellipse_3.svg" alt="img" class="portrait">
+                        </div>
+                        <div class="explanation">
+                            <div class="name">
+                                <p>Cooper Dorwart</p>
+                            </div>
+                            <div class="position">
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="swiper-pagination">
+        </div>
+        </div>
         <div class="wrapper">
             <div class="customers__box">
                 <div class="text">
@@ -321,7 +382,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
     </section>
     <section class="design">
         <div class="design__title">
@@ -414,5 +475,8 @@
             <p>© 2015 Axure Themes</p>
         </div>
     </footer>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
